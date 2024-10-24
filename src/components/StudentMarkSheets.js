@@ -21,38 +21,46 @@ function StudentMarkSheets() {
                 <legend>Personal Details</legend>
             
             <div>
-                <label>Firstname :</label>
+                <label>Firstname </label>
+                <span>:</span>
                 <input type='text' ref={firstNameInputRef}></input>
             </div>
             <div>
-                <label>Lastname :</label>
+                <label>Lastname </label>
+                <span>:</span>
                 <input type='text' ref={lastNameInputRef}></input>
             </div>
             </fieldset>
             <fieldset>
                 <legend>Marks Details</legend>
             <div>
-                <label>Telugu :</label>
+                <label>Telugu</label>
+                <span>:</span>
                 <input type='number' ref={teluguInputRef}></input>
             </div>
             <div>
-                <label>Hindi :</label>
+                <label>Hindi</label>
+                <span>:</span>
                 <input type='number' ref={hindiInputRef}></input>
             </div>
             <div>
-                <label>English :</label>
+                <label>English</label>
+                <span>:</span>
                 <input type='number' ref={englishInputRef}></input>
             </div>
             <div>
-                <label>Maths :</label>
+                <label>Maths</label>
+                <span>:</span>
                 <input type='number' ref={mathsInputRef}></input>
             </div>
             <div>
-                <label>Science :</label>
+                <label>Science</label>
+                <span>:</span>
                 <input type='number' ref={scienceInputRef}></input>
             </div>
             <div>
-                <label>Social :</label>
+                <label>Social</label>
+                <span>:</span>
                 <input type='number' ref={socialInputRef}></input>
             </div>
             
