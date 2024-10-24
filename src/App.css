@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Noto+Color+Emoji&family=Rubik+Wet+Paint&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Noto+Color+Emoji&family=Rubik+Wet+Paint&family=Slabo+27px&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.App {
+  text-align: center;
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  margin: 5px auto;
+  width: 900px;
+  padding: 10px;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 900;
+  font-style: normal;
+}
+h1,legend {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+}
+ h1:hover {
+  background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+ }
+form {
+  background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  width: 550px;
+}
+ form label {
+  display: inline-block;
+   width: 150px;
+   text-align: justify;
+ }
+ form div  {
+  margin: 10px;
+ }
+.innerLabel {
+  width: auto;
+}
+ button {
+  background-color: cadetblue;
+  color: white;
+  width: 150px;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 900;
+  font-style: normal;
+ }
+ button:hover {
+  box-shadow: 10px 10px 35px black ;
+ }
+ fieldset {
+  border: 2px dashed goldenrod;
+  margin: 20px;
+  /* font-weight: 900; */
+ }
+ legend {
+  text-align: left;
+  border-radius: 2px;
+  background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  
+ }
+ legend:hover {
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  box-shadow: 10px 10px 45px white ;
+ }
+
+ input {
+  width: 50%;
+  height: 20px;
+  border-radius: 5px;
+ }
+ /* input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} */
